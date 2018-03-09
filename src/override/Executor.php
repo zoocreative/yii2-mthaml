@@ -1,6 +1,6 @@
 <?php
 
-namespace mervick\mthaml\override;
+namespace zoocreative\mthaml\override;
 
 use MtHaml\Environment;
 use MtHaml\Exception;
