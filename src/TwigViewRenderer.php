@@ -1,6 +1,6 @@
 <?php
 
-namespace mervick\mthaml;
+namespace zoocreative\mthaml;
 
 use MtHaml;
 use MtHaml\Support\Twig;

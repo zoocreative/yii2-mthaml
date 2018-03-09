@@ -1,6 +1,6 @@
 <?php
 
-namespace mervick\mthaml;
+namespace zoocreative\mthaml;
 
 use Yii;
 use MtHaml;
@@ -20,7 +20,7 @@ class HamlViewRenderer extends AbstractMtHamlViewRenderer
 	{
 		parent::init();
 		$haml = new MtHaml\Environment('php', $this->options, $this->getFilters());
-		$this->parser = new \mervick\mthaml\override\Executor($haml, [
+		$this->parser = new \zoocreative\mthaml\override\Executor($haml, [
 			'cache' => Yii::getAlias($this->cachePath),
 			'debug' => $this->debug
 		]);
