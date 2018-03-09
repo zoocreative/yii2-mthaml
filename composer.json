@@ -1,16 +1,20 @@
 {
-    "name": "mervick/yii2-mthaml",
+    "name": "zoocreative/yii2-mthaml",
     "description": "The MtHaml integration for the Yii2 framework",
     "keywords": ["yii2", "MtHaml", "haml", "twig", "renderer"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/mervick/yii2-mthaml"
+        "source": "https://github.com/zoocreative/yii2-mthaml"
     },
     "authors": [
         {
             "name": "Andrey Izman",
             "email": "izman.dev@gmail.com"
+        },
+        {
+            "name": "Richard Walsh",
+            "email": "richard@zoocreative.net"
         }
     ],
     "require": {
@@ -39,6 +43,6 @@
         "leafo/scssphp-compass": "If you want to use Compass library with Scss"
     },
     "autoload": {
-        "psr-4": { "mervick\\mthaml\\": "src/" }
+        "psr-4": { "zoocreative\\mthaml\\": "src/" }
     }
 }

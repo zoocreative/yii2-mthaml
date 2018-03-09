@@ -504,7 +504,7 @@ abstract class AbstractMtHamlViewRenderer extends ViewRenderer
      */
     public function render($view, $file, $params)
     {
-        return $this->parser->render($file, $params + ['app' => Yii::$app, 'this' => $view, 'view' => $view]);
+        return $this->parser->render($file, $params + ['app' => Yii::$app, 'mthis' => $view, 'view' => $view]);
     }
 
 }
